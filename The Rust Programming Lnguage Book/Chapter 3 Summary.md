@@ -1,3 +1,4 @@
+
 <h2>Constant Limitations</h2>
 1. You are not allowed to use `mut` with constants, They are always <b>immutable</b>.
 2. Type of constant must be annotated.
@@ -6,7 +7,7 @@ Rust's naming convention for constants is to use all uppercase with underscores 
 
 <h2>Shadowing</h2>
 You can declare a new variable with the same name as a previous variable. 
-Rustaceans say that the first variable is shadowed by the second.
+`Rustaceans` say that the first variable is shadowed by the second.
 We can shadow a variable by using the same variable’s name and repeating the use of the let keyword.
 We can change the type of the value but reuse the same name.
 
